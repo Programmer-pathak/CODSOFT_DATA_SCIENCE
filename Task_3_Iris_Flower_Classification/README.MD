@@ -54,5 +54,6 @@ Random Forest Classifier
 
 ## Author
 
-Ashish Pathak
+Ashish Kumar
+
 GitHub: https://github.com/Programmer-pathak
