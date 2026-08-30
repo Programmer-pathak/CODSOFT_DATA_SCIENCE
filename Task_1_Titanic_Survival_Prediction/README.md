@@ -55,5 +55,5 @@ The model achieved approximately **81.56% accuracy** on the test data.
 
 ## Author
 
-Ashish Pathak
+Ashish Kumar
 GitHub: https://github.com/Programmer-pathak
