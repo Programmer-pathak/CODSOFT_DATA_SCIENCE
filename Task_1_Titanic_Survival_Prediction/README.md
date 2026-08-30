@@ -43,18 +43,36 @@ The downloaded Titanic dataset contains passenger information such as:
 
 Random Forest Classifier
 
-## Results
+## 📊 Model Evaluation
 
-The model achieved approximately **81.56% accuracy** on the test data.
+The Random Forest Classifier was evaluated using:
 
-## How to Run
+* Accuracy Score
+* Classification Report
+* Confusion Matrix
 
-1. Keep `Titanic-Dataset.csv` and `titanic_survival_prediction.ipynb` in the same folder.
-2. Open the notebook using Jupyter Notebook, VS Code Notebook, or Google Colab.
-3. Run all cells from top to bottom.
+The model achieved approximately **81.56% accuracy** on the test dataset.
 
-## Author
+This means that the model correctly predicted the survival outcome for approximately 82 out of every 100 passengers in the test data.
 
-Ashish Kumar
+## ✅ Conclusion
 
-GitHub: https://github.com/Programmer-pathak
+The project demonstrates how Machine Learning can be used to solve a binary classification problem using real-world passenger data.
+
+The complete workflow included data preprocessing, handling missing values, exploratory data analysis, categorical feature encoding, model training, prediction, and evaluation.
+
+The Random Forest Classifier achieved approximately **81.56% accuracy**, showing that passenger characteristics such as gender, passenger class, age, and fare contain useful information for predicting survival.
+
+## ▶️ How to Run
+
+1. Download or clone this repository.
+2. Keep `Titanic-Dataset.csv` and `titanic_survival_prediction.ipynb` in the same folder.
+3. Open the notebook using Jupyter Notebook, VS Code, or Google Colab.
+4. Install the required Python libraries if necessary.
+5. Run all notebook cells from top to bottom.
+
+## 👨‍💻 Author
+
+**Ashish Kumar**
+
+GitHub: [Programmer-pathak](https://github.com/Programmer-pathak)
