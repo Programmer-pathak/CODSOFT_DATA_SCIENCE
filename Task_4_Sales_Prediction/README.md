@@ -1,53 +1,149 @@
-# Sales Prediction Using Python
+# 📈 Sales Prediction Using Machine Learning
 
-This project is completed as Task 4 of the CodSoft Data Science Internship.
+## 📌 Project Overview
 
-## Objective
+This project predicts product sales based on advertising expenditure across different media channels using Machine Learning.
 
-The objective of this project is to predict product sales based on advertising expenditure on TV, Radio, and Newspaper platforms.
+The dataset contains advertising expenditure for **TV, Radio, and Newspaper**, along with the corresponding **Sales** values.
 
-## Dataset
+A **Linear Regression** model is trained to learn the relationship between advertising expenditure and product sales.
 
-The downloaded advertising dataset contains the following columns:
+---
 
-* TV: Amount spent on TV advertising
-* Radio: Amount spent on Radio advertising
-* Newspaper: Amount spent on Newspaper advertising
-* Sales: Product sales value
+## 🎯 Objective
 
-## Project Workflow
+The objective of this project is to build a Machine Learning regression model that can predict product sales based on advertising expenditure across different media channels.
 
-1. Loaded the downloaded advertising CSV dataset.
-2. Checked dataset rows, columns, and missing values.
-3. Visualized the relationship between advertisements and sales.
-4. Selected TV, Radio, and Newspaper as input features.
-5. Selected Sales as the target output.
-6. Split the data into training and testing datasets.
-7. Trained a Linear Regression model.
-8. Evaluated the model using MAE, MSE, and R² Score.
-9. Predicted sales for new advertising values.
+---
 
-## Technologies Used
+## 📊 Dataset Features
+
+The dataset contains the following columns:
+
+* **TV** – Advertising expenditure on TV
+* **Radio** – Advertising expenditure on Radio
+* **Newspaper** – Advertising expenditure on Newspaper
+* **Sales** – Product sales and the target variable
+
+### Input Features
+
+`TV`, `Radio`, `Newspaper`
+
+### Target Variable
+
+`Sales`
+
+---
+
+## 🔄 Machine Learning Workflow
+
+The project follows the following workflow:
+
+`Dataset Loading → Data Understanding → Exploratory Data Analysis → Feature Selection → Train-Test Split → Model Training → Sales Prediction → Model Evaluation → New Data Prediction`
+
+---
+
+## 🔍 Exploratory Data Analysis
+
+The relationship between advertising expenditure and sales is analyzed using visualizations.
+
+The project examines:
+
+* TV Advertising vs Sales
+* Radio Advertising vs Sales
+* Newspaper Advertising vs Sales
+
+These visualizations help understand how advertising expenditure across different channels is associated with product sales.
+
+---
+
+## 🤖 Machine Learning Algorithm
+
+### Linear Regression
+
+Linear Regression is used because the target variable, **Sales**, is a continuous numerical value.
+
+The model learns the relationship between advertising expenditure and sales and then uses this relationship to predict sales for unseen advertising data.
+
+---
+
+## 📈 Model Evaluation
+
+The model is evaluated using:
+
+* **Mean Absolute Error (MAE): 1.27**
+* **Mean Squared Error (MSE): 2.91**
+* **R² Score: 0.91**
+
+The R² score indicates that the trained model explains a large portion of the variation in sales observed in the test data.
+
+---
+
+## 🧪 New Sales Prediction
+
+The trained model can also predict sales for new advertising expenditure.
+
+For example, the notebook demonstrates prediction using advertising values for:
+
+* TV
+* Radio
+* Newspaper
+
+For the sample advertising data used in the notebook, the model predicted sales of approximately **15.54**.
+
+---
+
+## 🛠️ Technologies Used
 
 * Python
 * Pandas
+* NumPy
 * Matplotlib
 * Seaborn
 * Scikit-learn
+* Jupyter Notebook
 
-## Machine Learning Algorithm
+---
 
-Linear Regression
+## 📁 Project Files
 
+```text
+Task_4_Sales_Prediction/
+│
+├── advertising.csv
+├── sales_prediction.ipynb
+└── README.md
+```
 
-## How to Run
+* `advertising.csv` – Dataset used for training and testing
+* `sales_prediction.ipynb` – Complete Machine Learning implementation
+* `README.md` – Project documentation
 
-1. Keep `advertising.csv` and `sales_prediction.ipynb` in the same folder.
-2. Open the notebook in VS Code, Jupyter Notebook, or Google Colab.
-3. Run all code cells from top to bottom.
+---
 
+## ▶️ How to Run
 
-## Author
+1. Download or clone the repository.
+2. Open the `Task_4_Sales_Prediction` folder.
+3. Make sure `advertising.csv` and `sales_prediction.ipynb` are in the same folder.
+4. Open `sales_prediction.ipynb` using Jupyter Notebook, VS Code, or Google Colab.
+5. Install the required Python libraries if necessary.
+6. Run all notebook cells from top to bottom.
 
-Ashish Pathak
-GitHub: https://github.com/Programmer-pathak
+---
+
+## ✅ Conclusion
+
+The Linear Regression model was successfully used to predict product sales based on advertising expenditure across TV, Radio, and Newspaper.
+
+The model achieved an **R² score of approximately 0.91**, with a **Mean Absolute Error of 1.27** and a **Mean Squared Error of 2.91** on the test dataset.
+
+This project demonstrates a complete basic Machine Learning regression workflow, including data exploration, visualization, feature selection, model training, prediction, evaluation, and prediction on new advertising data.
+
+---
+
+## 👨‍💻 Author
+
+**Ashish Kumar**
+
+GitHub: [Programmer-pathak](https://github.com/Programmer-pathak)
